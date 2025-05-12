@@ -1,0 +1,19 @@
+====== Request ======
+DELETE https://petstore.swagger.io/v2/user/rochelle.schuppe
+Accept: */*
+
+====== Response ======
+Status Code: 200
+Date: Mon, 12 May 2025 14:23:13 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+Body: {
+    "code": 200,
+    "type": "unknown",
+    "message": "rochelle.schuppe"
+}

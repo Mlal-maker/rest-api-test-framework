@@ -1,0 +1,21 @@
+====== Request ======
+POST https://petstore.swagger.io/v2/user
+Accept: application/json, application/javascript, text/javascript, text/json
+Content-Type: application/json
+Body: {"id":220144544,"username":"elanor.schuppe","firstName":"Penney","lastName":"Bode","email":"denny.heidenreich@example.com","password":"(560) 919-0695","phone":null,"userStatus":0}
+
+====== Response ======
+Status Code: 200
+Date: Mon, 12 May 2025 13:58:55 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+Body: {
+    "code": 200,
+    "type": "unknown",
+    "message": "220144544"
+}
